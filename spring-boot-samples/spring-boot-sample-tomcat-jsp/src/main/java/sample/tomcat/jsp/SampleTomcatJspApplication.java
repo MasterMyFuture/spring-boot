@@ -23,7 +23,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 @SpringBootApplication
 public class SampleTomcatJspApplication extends SpringBootServletInitializer {
-
+// 打包成可以在tomcat上运行的程序
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(SampleTomcatJspApplication.class);
